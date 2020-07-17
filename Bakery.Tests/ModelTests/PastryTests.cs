@@ -24,7 +24,7 @@ namespace Bakery.Tests
     public void AddPastryCost_ReturnPastryCost_Int()
     {
       Pastry pastryOrder = new Pastry(1);
-      Assert.AreEqual(10, pastryOrder.AddPastryCost());
+      Assert.AreEqual(2, pastryOrder.AddPastryCost());
     }
   }
 }
