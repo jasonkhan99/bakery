@@ -9,15 +9,15 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadConstructor_CreatesInstanceOfBreadClass_Bread()
     {
-      Bread breadOrder = new Bread();
+      Bread breadOrder = new Bread(1);
       Assert.AreEqual(typeof(Bread), breadOrder.GetType());
     }
     [TestMethod]
     public void GetBreadQuantity_ReturnsBreadQuantity_Int()
     {
       int breadQuantity = 1;
-      Bread breadOrder = new Bread(breadQuantity);
-      int result = breadOrder.breadQuantity;
+      Bread breadOrder = new Bread(1);
+      int result = breadOrder.BreadQuantity;
       Assert.AreEqual(breadQuantity, result);
     }
   }
