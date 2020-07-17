@@ -12,7 +12,7 @@ _This is a console application using C# that will tally a users purchases at a B
 | Behavior   |   Input   |  Output |
 |----------|:-------------:|------:|
 | Program will tally a single loaf of bread as $5.00 | 1 loaf of bread | $5.00 |
-
+| Program will tally a single pastry as $2.00 | 1 pastry | $2.00 |
 
 
 ## Setup/Installation Requirements
