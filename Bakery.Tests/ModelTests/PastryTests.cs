@@ -30,7 +30,7 @@ namespace Bakery.Tests
     public void SubtractPastryDiscount_ReturnPastryDiscount_Int()
     {
       Pastry pastryOrder = new Pastry(3);
-      Assert.AreEqual(5, pastryOrder.SubtractPastryDiscount(15));
+      Assert.AreEqual(5, pastryOrder.SubtractPastryDiscount(6));
     }
   }
 }
