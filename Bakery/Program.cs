@@ -17,9 +17,7 @@ namespace Bakery {
       Pastry inputPastryQuantity = new Pastry(int.Parse(Console.ReadLine()));
       int outputPastryCost = inputPastryQuantity.SubtractPastryDiscount(inputPastryQuantity.AddPastryCost());
       int outputTotalCost = outputPastryCost + outputBreadCost;
-      Console.WriteLine(outputBreadCost);
-      Console.WriteLine(outputPastryCost);
-      Console.WriteLine(outputTotalCost);
+      Console.WriteLine(" Your total is $" + outputTotalCost + ".00");
     }
   }
 }
