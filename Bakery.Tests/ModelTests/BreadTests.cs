@@ -24,7 +24,7 @@ namespace Bakery.Tests
     public void AddBreadCost_ReturnBreadCost_Int()
     {
       Bread breadOrder = new Bread(1);
-      Assert.AreEqual(10, breadOrder.AddBreadCost());
+      Assert.AreEqual(5, breadOrder.AddBreadCost());
     }
   }
 }
