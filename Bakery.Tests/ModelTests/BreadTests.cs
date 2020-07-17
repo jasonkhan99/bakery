@@ -20,5 +20,11 @@ namespace Bakery.Tests
       int result = breadOrder.BreadQuantity;
       Assert.AreEqual(breadQuantity, result);
     }
+    [TestMethod]
+    public void AddBreadCost_ReturnBreadCost_Int()
+    {
+      Bread breadOrder = new Bread(1);
+      Assert.AreEqual(10, breadOrder.AddBreadCost());
+    }
   }
 }
