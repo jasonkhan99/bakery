@@ -8,6 +8,13 @@
 
 _This is a console application using C# that will tally a users purchases at a Bakery and return a total_
 
+## Specs
+| Behavior   |   Input   |  Output |
+|----------|:-------------:|------:|
+| Program will tally a single loaf of bread as $5.00 | 1 loaf of bread | $5.00 |
+
+
+
 ## Setup/Installation Requirements
 
 Software Requirements
