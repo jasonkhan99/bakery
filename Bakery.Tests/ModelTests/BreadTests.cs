@@ -30,7 +30,7 @@ namespace Bakery.Tests
     public void SubtractBreadDiscount_ReturnBreadDiscount_Int()
     {
       Bread breadOrder = new Bread(3);
-      Assert.AreEqual(5, breadOrder.SubtractBreadDiscount(15));
+      Assert.AreEqual(10, breadOrder.SubtractBreadDiscount(15));
     }
   }
 }
