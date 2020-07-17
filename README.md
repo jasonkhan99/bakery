@@ -14,7 +14,8 @@ _This is a console application using C# that will tally a users purchases at a B
 | Program will tally a single loaf of bread as $5.00 | 1 loaf of bread | $5.00 |
 | Program will tally a single pastry as $2.00 | 1 pastry | $2.00 |
 | Program will add total cost of items | 1 pastry and 1 loaf of bread | $7.00 |
-| Program will subtract $5.00 for every 2 loaves of bread | 3 loaves of bread | $10.00 |
+| Program will subtract $5.00 for every 3 loaves of bread | 3 loaves of bread | $10.00 |
+| Program will subtract $1.00 for every 3 pastries | 3 pastries | $5.00 |
 
 
 ## Setup/Installation Requirements
