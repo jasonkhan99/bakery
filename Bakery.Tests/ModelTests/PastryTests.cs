@@ -7,6 +7,9 @@ namespace Bakery.Tests
   public class PastryTests
   {
     [TestMethod]
-    // Test method will go here
+    public void PastryConstructor_CreatesInstanceOfPastryClass_Pastry()
+    {
+
+    }
   }
 }

@@ -7,6 +7,10 @@ namespace Bakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    // Test method will go here
+    public void BreadConstructor_CreatesInstanceOfBreadClass_Bread()
+    {
+      Bread breadOrder = new Bread();
+      Assert.AreEqual(typeof(Bread), breadOrder.GetType());
+    }
   }
 }
